@@ -257,3 +257,32 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+@media only screen and (max-width: 600px) {
+  *{
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .main{
+    width: 37rem;
+  }
+  img{
+    width: 12rem;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  .app-header{
+    width: 38rem;
+  }
+
+  h2{
+    font-size: 2.8rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+}
