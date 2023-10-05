@@ -11,7 +11,7 @@ const initialState = {
   answer: null,
   points: 0,
   highscore: 0,
-  secondsRemaining: null,
+  secondsRemaining: 900,
 };
 
 function reducer(state, action) {
@@ -58,6 +58,7 @@ function reducer(state, action) {
     case "tick":
       return {
         ...state,
+        secondsRemaining: state.secondsRemaining - 1,
         status: state.secondsRemaining === 0 ? "finished" : state.status,
       };
     default:
