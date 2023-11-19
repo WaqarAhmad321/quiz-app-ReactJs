@@ -1,4 +1,4 @@
-# Fast React Pizza Co.
+# The Ultimate React Quiz
 
 A web application built with React that offers users a 15-minute quiz session consisting of 15 questions related to React.js. Users receive a score based on their answers.
 
